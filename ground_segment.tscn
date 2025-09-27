@@ -1,7 +1,17 @@
 [gd_scene load_steps=6 format=3 uid="uid://duvknatadl2p"]
 
-[ext_resource type="Script" uid="uid://bmna13yy0em51" path="res://Scripts/collision_shape_2d.gd" id="1_tg5mo"]
 [ext_resource type="Texture2D" uid="uid://d3edru0r1vmxh" path="res://image/ground.png" id="2_tvlcb"]
+
+[sub_resource type="GDScript" id="GDScript_2ij5i"]
+script/source = "extends Area2D
+
+func _ready():
+	var sprite = $Sprite2D  # 直接取得子節點
+	var texture = sprite.texture
+	var width = texture.get_width() * sprite.scale.x
+	var height = texture.get_height() * sprite.scale.y
+	print(\"Area2D 寬:\", width, \"高:\", height)
+"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d2auo"]
 size = Vector2(1280, 240)
@@ -16,7 +26,7 @@ size = Vector2(1280, 240)
 
 [node name="road1" type="Area2D" parent="."]
 position = Vector2(2, -239)
-script = ExtResource("1_tg5mo")
+script = SubResource("GDScript_2ij5i")
 
 [node name="Sprite2D" type="Sprite2D" parent="road1"]
 scale = Vector2(1.069471, 0.6430551)
@@ -29,7 +39,7 @@ debug_color = Color(0.996059, 0, 0.20241034, 0.41960785)
 
 [node name="road2" type="Area2D" parent="."]
 position = Vector2(0, 4)
-script = ExtResource("1_tg5mo")
+script = SubResource("GDScript_2ij5i")
 
 [node name="Sprite2D" type="Sprite2D" parent="road2"]
 scale = Vector2(1.069471, 0.6430551)
@@ -42,7 +52,7 @@ debug_color = Color(0.996059, 0, 0.20241034, 0.41960785)
 
 [node name="road3" type="Area2D" parent="."]
 position = Vector2(0, 241)
-script = ExtResource("1_tg5mo")
+script = SubResource("GDScript_2ij5i")
 
 [node name="Sprite2D" type="Sprite2D" parent="road3"]
 scale = Vector2(1.069471, 0.6430551)
