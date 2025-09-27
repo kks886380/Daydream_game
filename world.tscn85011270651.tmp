@@ -1,0 +1,64 @@
+[gd_scene load_steps=7 format=3 uid="uid://cr2rb81v7s6bw"]
+
+[ext_resource type="Texture2D" uid="uid://bb64217h0ipbm" path="res://icon.svg" id="1_f3sb7"]
+[ext_resource type="Texture2D" uid="uid://by1fpcruhr03v" path="res://image/ground.png" id="1_fj7yv"]
+[ext_resource type="Script" uid="uid://wq074oqv80xy" path="res://Scripts/player_move.gd" id="2_tlwt5"]
+[ext_resource type="Script" uid="uid://dhnikk7sypfvj" path="res://Scripts/camera.gd" id="4_aqk2v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fj7yv"]
+size = Vector2(1200, 381)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tlwt5"]
+radius = 64.0
+height = 130.0
+
+[node name="World" type="Node2D"]
+
+[node name="road1" type="Area2D" parent="."]
+position = Vector2(0, -283)
+scale = Vector2(1.0897237, 0.5244156)
+
+[node name="Sprite2D" type="Sprite2D" parent="road1"]
+texture = ExtResource("1_fj7yv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="road1"]
+position = Vector2(1, 111.5)
+shape = SubResource("RectangleShape2D_fj7yv")
+debug_color = Color(0.996059, 0, 0.20241034, 0.41960785)
+
+[node name="road2" type="Area2D" parent="."]
+scale = Vector2(1.1450198, 0.56463325)
+
+[node name="Sprite2D" type="Sprite2D" parent="road2"]
+texture = ExtResource("1_fj7yv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="road2"]
+position = Vector2(1, 111.5)
+shape = SubResource("RectangleShape2D_fj7yv")
+debug_color = Color(0.996059, 0, 0.20241034, 0.41960785)
+
+[node name="road3" type="Area2D" parent="."]
+position = Vector2(0, 165)
+scale = Vector2(1.1555631, 0.5560138)
+
+[node name="Sprite2D" type="Sprite2D" parent="road3"]
+texture = ExtResource("1_fj7yv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="road3"]
+position = Vector2(1, 111.5)
+shape = SubResource("RectangleShape2D_fj7yv")
+debug_color = Color(0.996059, 0, 0.20241034, 0.41960785)
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("2_tlwt5")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+position = Vector2(-7, -6)
+texture = ExtResource("1_f3sb7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(-7, -7)
+shape = SubResource("CapsuleShape2D_tlwt5")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("4_aqk2v")
