@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnv80jrlvg4ln"]
+
+[ext_resource type="Texture2D" uid="uid://d3edru0r1vmxh" path="res://image/ground.png" id="2_bpeel"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_036b0"]
+size = Vector2(1280, 240)
+
+[node name="road" type="Area2D"]
+
+[node name="road1" type="Area2D" parent="."]
+position = Vector2(0, -240)
+
+[node name="Sprite2D" type="Sprite2D" parent="road1"]
+scale = Vector2(1.069471, 0.6430551)
+texture = ExtResource("2_bpeel")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="road1" groups=["road"]]
+position = Vector2(1.5, 2)
+shape = SubResource("RectangleShape2D_036b0")
+debug_color = Color(0.996059, 0, 0.20241034, 0.41960785)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="road1"]
+layer = 0
+
+[node name="road2" type="Area2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="road2"]
+scale = Vector2(1.069471, 0.6430551)
+texture = ExtResource("2_bpeel")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="road2" groups=["road"]]
+position = Vector2(1.5, 2)
+shape = SubResource("RectangleShape2D_036b0")
+debug_color = Color(0.996059, 0, 0.20241034, 0.41960785)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="road2"]
+layer = 0
+
+[node name="road3" type="Area2D" parent="."]
+position = Vector2(0, 236)
+
+[node name="Sprite2D" type="Sprite2D" parent="road3"]
+scale = Vector2(1.069471, 0.6430551)
+texture = ExtResource("2_bpeel")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="road3" groups=["road"]]
+position = Vector2(1.5, 2)
+shape = SubResource("RectangleShape2D_036b0")
+debug_color = Color(0.996059, 0, 0.20241034, 0.41960785)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="road3"]
+layer = 0

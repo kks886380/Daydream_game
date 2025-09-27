@@ -1,13 +1,14 @@
 [gd_scene load_steps=10 format=3 uid="uid://cr2rb81v7s6bw"]
 
-[ext_resource type="PackedScene" path="res://road.tscn" id="1_dwbse"]
+
+[ext_resource type="PackedScene" uid="uid://dnv80jrlvg4ln" path="res://road.tscn" id="1_dwbse"]
 [ext_resource type="Texture2D" uid="uid://bb64217h0ipbm" path="res://icon.svg" id="1_f3sb7"]
 [ext_resource type="Script" uid="uid://wq074oqv80xy" path="res://Scripts/player_move.gd" id="2_tlwt5"]
 [ext_resource type="Script" uid="uid://dhnikk7sypfvj" path="res://Scripts/camera.gd" id="4_aqk2v"]
-[ext_resource type="Script" path="res://Scripts/ScoreLabel.gd" id="6_dwbse"]
-[ext_resource type="FontFile" path="res://fonts/TrueType (.ttf)/PixeloidSans-Bold.ttf" id="6_pkg7o"]
-[ext_resource type="Script" path="res://Scripts/bullet_manager.gd" id="7_gbfbk"]
-[ext_resource type="PackedScene" path="res://bullet.tscn" id="7_pkg7o"]
+[ext_resource type="Script" uid="uid://c8ruoglqogjib" path="res://Scripts/ScoreLabel.gd" id="6_dwbse"]
+[ext_resource type="FontFile" uid="uid://d1wl4tywbva1q" path="res://fonts/TrueType (.ttf)/PixeloidSans-Bold.ttf" id="6_pkg7o"]
+[ext_resource type="Script" uid="uid://cqjxnmmhul044" path="res://Scripts/bullet_manager.gd" id="7_gbfbk"]
+[ext_resource type="PackedScene" uid="uid://c7bri27ppmrid" path="res://bullet.tscn" id="7_pkg7o"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tlwt5"]
 radius = 64.0
