@@ -33,7 +33,7 @@ offset_bottom = 716.0
 texture = ExtResource("2_d2nv2")
 expand_mode = 2
 
-[node name="start button" type="Button" parent="."]
+[node name="StartButton" type="Button" parent="."]
 layout_mode = 0
 offset_left = 421.0
 offset_top = 571.0
@@ -57,4 +57,4 @@ scale = Vector2(0.62675476, 0.6216216)
 theme_override_font_sizes/font_size = 80
 text = "按下 enter 進行遊戲"
 
-[connection signal="pressed" from="start button" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
