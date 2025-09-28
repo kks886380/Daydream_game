@@ -13,11 +13,11 @@ config_version=5
 config/name="godot_game_v3"
 run/main_scene="uid://wc1k08lotuxb"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
 
 [autoload]
 
 GameManager="*res://game_manager.gd"
+Global="*res://Scripts/Global.gd"
 
 [display]
 

@@ -43,12 +43,13 @@ animations = [{
 }]
 
 [node name="bullet" type="Area2D" groups=["bullet"]]
-scale = Vector2(20, 20)
+scale = Vector2(12.812046, 12.646571)
 collision_layer = 3
 script = ExtResource("1_v8qja")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 1.5)
+position = Vector2(0, 1.4999999)
+scale = Vector2(0.99999994, 0.99999994)
 shape = SubResource("RectangleShape2D_v7oki")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

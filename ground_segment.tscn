@@ -1,5 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://duvknatadl2p"]
+[gd_scene load_steps=7 format=3 uid="uid://duvknatadl2p"]
 
+[ext_resource type="Texture2D" uid="uid://v5gh1b6hrpaw" path="res://image/城市背景.png" id="1_2ij5i"]
 [ext_resource type="Texture2D" uid="uid://d3edru0r1vmxh" path="res://image/ground.png" id="2_tvlcb"]
 
 [sub_resource type="GDScript" id="GDScript_2ij5i"]
@@ -29,6 +30,7 @@ position = Vector2(2, -239)
 script = SubResource("GDScript_2ij5i")
 
 [node name="Sprite2D" type="Sprite2D" parent="road1"]
+visible = false
 scale = Vector2(1.069471, 0.6430551)
 texture = ExtResource("2_tvlcb")
 
@@ -42,6 +44,7 @@ position = Vector2(0, 4)
 script = SubResource("GDScript_2ij5i")
 
 [node name="Sprite2D" type="Sprite2D" parent="road2"]
+visible = false
 scale = Vector2(1.069471, 0.6430551)
 texture = ExtResource("2_tvlcb")
 
@@ -55,6 +58,7 @@ position = Vector2(0, 241)
 script = SubResource("GDScript_2ij5i")
 
 [node name="Sprite2D" type="Sprite2D" parent="road3"]
+visible = false
 scale = Vector2(1.069471, 0.6430551)
 texture = ExtResource("2_tvlcb")
 
@@ -62,3 +66,8 @@ texture = ExtResource("2_tvlcb")
 position = Vector2(1.5, 2)
 shape = SubResource("RectangleShape2D_rf25i")
 debug_color = Color(0.996059, 0, 0.20241034, 0.41960785)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(2.0000002, 4)
+scale = Vector2(1.2613502, 0.97646827)
+texture = ExtResource("1_2ij5i")

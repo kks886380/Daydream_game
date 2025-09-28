@@ -1,9 +1,9 @@
 [gd_scene load_steps=9 format=3 uid="uid://cr2rb81v7s6bw"]
 
 [ext_resource type="Script" uid="uid://cvakwgpig10je" path="res://Scripts/world.gd" id="1_dwbse"]
-[ext_resource type="Texture2D" uid="uid://bb64217h0ipbm" path="res://icon.svg" id="1_f3sb7"]
 [ext_resource type="Script" uid="uid://wq074oqv80xy" path="res://Scripts/player_move.gd" id="2_tlwt5"]
 [ext_resource type="Script" uid="uid://cqjxnmmhul044" path="res://Scripts/bullet_manager.gd" id="4_036b0"]
+[ext_resource type="Texture2D" uid="uid://dl4febblvy2is" path="res://image/被追基佬.png" id="4_pkg7o"]
 [ext_resource type="PackedScene" uid="uid://duvknatadl2p" path="res://ground_segment.tscn" id="5_036b0"]
 [ext_resource type="Script" uid="uid://c8ruoglqogjib" path="res://Scripts/ScoreLabel.gd" id="5_pkg7o"]
 [ext_resource type="PackedScene" uid="uid://pbvr0fxyb463" path="res://bullet.tscn" id="6_dwbse"]
@@ -30,6 +30,7 @@ script = SubResource("GDScript_aqk2v")
 [node name="WorldScroll" type="Node2D" parent="."]
 
 [node name="Segment1" parent="WorldScroll" instance=ExtResource("5_036b0")]
+position = Vector2(-3, 0)
 
 [node name="Segment2" parent="WorldScroll" instance=ExtResource("5_036b0")]
 position = Vector2(1280, 0)
@@ -40,30 +41,23 @@ script = ExtResource("2_tlwt5")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
 position = Vector2(-7, -6)
-texture = ExtResource("1_f3sb7")
+scale = Vector2(0.4420866, 0.4779893)
+texture = ExtResource("4_pkg7o")
 
 [node name="bullet_manager" type="Node2D" parent="."]
 script = ExtResource("4_036b0")
 bullet_scene = ExtResource("6_dwbse")
 
-[node name="bullet" parent="bullet_manager" instance=ExtResource("6_dwbse")]
-position = Vector2(10.999999, 34.000004)
-rotation = -3.1369946
-
-[node name="bullet2" parent="bullet_manager" instance=ExtResource("6_dwbse")]
-position = Vector2(433, -215)
-rotation = 3.135011
-
 [node name="Lable" type="Label" parent="."]
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 138.0
-offset_top = -385.0
-offset_right = 713.0
-offset_bottom = -112.0
+offset_left = 46.0
+offset_top = -379.0
+offset_right = 621.0
+offset_bottom = -106.0
 grow_vertical = 0
-theme_override_colors/font_color = Color(0.2732169, 1.0824815, 1.3121375, 1)
+theme_override_colors/font_color = Color(0.8337649, 0, 0.088912874, 1)
 theme_override_font_sizes/font_size = 120
 text = "score:"
 script = ExtResource("5_pkg7o")

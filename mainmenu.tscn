@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://wc1k08lotuxb"]
 
-[ext_resource type="Texture2D" uid="uid://bvrknlr6csr40" path="res://ChatGPT Image 2025年9月27日 下午03_33_07.png" id="1_cmhrf"]
+[ext_resource type="Texture2D" uid="uid://bvrknlr6csr40" path="res://image/ChatGPT Image 2025年9月27日 下午03_33_07.png" id="1_cmhrf"]
 [ext_resource type="Script" uid="uid://ctmwqno1j12yd" path="res://mainmenu.gd" id="1_d2nv2"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_d2nv2"]
