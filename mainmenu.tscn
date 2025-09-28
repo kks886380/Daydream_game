@@ -1,0 +1,60 @@
+[gd_scene load_steps=8 format=3 uid="uid://wc1k08lotuxb"]
+
+[ext_resource type="Script" uid="uid://ctmwqno1j12yd" path="res://mainmenu.gd" id="1_d2nv2"]
+[ext_resource type="Texture2D" uid="uid://bugnpbf41crjj" path="res://image/pic.webp" id="2_d2nv2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_d2nv2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wgsso"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_igs2m"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3pujl"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7uvds"]
+
+[node name="mainmenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_d2nv2")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+clip_contents = true
+layout_mode = 1
+anchors_preset = -1
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 1270.0
+offset_bottom = 716.0
+texture = ExtResource("2_d2nv2")
+expand_mode = 2
+
+[node name="start button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 421.0
+offset_top = 571.0
+offset_right = 776.0
+offset_bottom = 682.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_d2nv2")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_wgsso")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_igs2m")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_3pujl")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_7uvds")
+text = "
+"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 783.0001
+offset_top = 611.0
+offset_right = 1514.0001
+offset_bottom = 721.0
+scale = Vector2(0.62675476, 0.6216216)
+theme_override_font_sizes/font_size = 80
+text = "按下 enter 進行遊戲"
+
+[connection signal="pressed" from="start button" to="." method="_on_start_button_pressed"]

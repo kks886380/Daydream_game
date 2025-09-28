@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtssarhvrjcdd"]
+
+[ext_resource type="Script" uid="uid://cl1uhnhi1w1h3" path="res://Scripts/countdown_label.gd" id="1_5b8q3"]
+
+[node name="CountdownScene" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 476.0
+offset_top = 291.0
+offset_right = 793.0
+offset_bottom = 428.0
+theme_override_font_sizes/font_size = 100
+text = "SCORE"
+script = ExtResource("1_5b8q3")

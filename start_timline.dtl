@@ -1,0 +1,100 @@
+[background arg="res://image/1/back square.webp" fade="0.0"]
+join 未知1 center [animation="Slide From Left" length="1.0" z_index="3"]
+未知1: 只要那個臭GAY不在....
+未知1: 在這個城市裡..
+未知1: 沒有人能夠背對著我
+未知1: 所以...
+未知1: 這位「蘿莉｣
+update 未知1 center [animation="Shake Y" length="0.1" repeat="5"]
+未知1: 知道自己要做什麼吧..呵呵
+leave 未知1
+未知1: 啊!!!不要啊~
+join 未知2 center [animation="Slide From Left" z_index="1"]
+未知2: 等一下
+leave 未知2 [animation="Slide To Right" length="1.0"]
+join 成都蘿莉 (shock) left
+成都蘿莉: !?
+成都蘿莉: 你怎麼在這裡?!
+成都蘿莉: 你不是早就在地牢裡了嗎?
+join 成都超人 (smile) right [animation="Slide From Right"]
+leave 成都蘿莉
+成都超人: 聽著寶貝
+update 成都超人 center [animation="Bounce"]
+成都超人: 我是多麼的愛你...
+成都超人: 所以現在...
+update 成都超人 (app1) right [animation="Bounce" move_time="0.5"]
+.
+update 成都超人 (app2) left [animation="Bounce" move_time="1.0"]
+.
+update 成都超人 (app3) center
+成都超人: 就讓我送你去成都
+嘿嘿....
+join 成都蘿莉 (shock) left [animation="Slide From Right" length="1.5" z_index="5"]
+<Empty Text Event>
+<Empty Text Event>
+join 成都超人 (punch) right [animation="Slide From Right"]
+成都超人: 你daddy我曾經說過...
+成都超人: 你在成都...
+成都超人: 只能算個...
+leave 成都蘿莉 [animation="Slide To Left"]
+update 成都超人 (loli) center [animation="Bounce" z_index="0"]
+成都超人: 蘿莉~♡
+leave 成都超人 [animation="Slide To Right"]
+join 成都蘿莉 (panic) left [animation="Slide From Right" z_index="10"]
+成都蘿莉: 你這個基佬
+leave 成都蘿莉 [animation="Slide To Left"]
+成都蘿莉: ...
+[background arg="res://image/1/back building.webp" fade="0.0"]
+join 成都超人 (fly) left [animation="Slide From Right"]
+成都超人: 別跑
+成都超人: 想跑去哪啊~~\
+我的小寶貝♡♡♡
+join 成都超人 (fly) left [animation="Fade In Up" mirrored="true"]
+成都超人: 這世界上
+成都超人: 難道還會有地方...
+update 成都超人 (smile) center [animation="Bounce" fade="Fade Cross" move_time="3.0"]
+成都超人: 能比我的懷裡\
+更讓你舒服嗎♡?
+leave 成都超人 [animation="Slide To Right" length="0.7"]
+join 成都蘿莉 (terrified) center [animation="Slide From Left"]
+成都蘿莉: (完了)\
+(絕對不能被那個基佬抓到)
+leave 成都蘿莉 [animation="Slide To Right"]
+join 成都超人 (fly) center [animation="Bounce In" mirrored="true"]
+成都超人: 自己掰開?
+update 成都超人 (loli) center [animation="Bounce"]
+成都超人: 孩子你知道嗎?\
+義大利麵在濕掉之前   也還是直的嗎?
+update 成都超人 (loli) center [animation="Bounce" z_index="0" mirrored="true" fade="Fade Cross" move_time="0.5"]
+成都超人: 沒有吃過花生的人....
+成都超人: 是不會知道他對花生過敏的
+成都超人: 所以別白費力氣了
+update 成都超人 (fly) center [animation="Bounce"]
+....
+update 成都超人 (fly) center [animation="Shake X" fade="Fade Cross"]
+成都超人: 自
+update 成都超人 (fly) center [animation="Shake X" fade="Fade Cross"]
+成都超人: 己
+update 成都超人 (fly) center [animation="Shake X" fade="Fade Cross"]
+成都超人: 掰
+update 成都超人 (fly) center [animation="Shake X" fade="Fade Cross"]
+成都超人: 開
+update 成都超人 (fly) center [animation="Shake X" fade="Fade Cross"]
+成都超人: ♡
+leave 成都超人 [animation="Slide To Right"]
+join 成都蘿莉 (panic) center [animation="Fade In Up"]
+成都蘿莉: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\
+啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\
+啊啊啊啊啊啊啊啊啊
+成都蘿莉: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\
+啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\
+啊啊啊啊啊啊啊啊啊
+成都蘿莉: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\
+啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\
+啊啊啊啊啊啊啊啊啊
+成都蘿莉: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\
+啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\
+啊啊啊啊啊啊啊啊啊
+成都蘿莉: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\
+啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊\
+啊啊啊啊啊啊啊啊啊

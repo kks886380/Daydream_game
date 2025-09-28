@@ -1,0 +1,85 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(1, 1, 1, 1),
+&"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "",
+"suffix": ""
+},
+&"default_portrait": "smile",
+&"description": "",
+&"display_name": "成都超人",
+&"mirror": false,
+&"nicknames": [""],
+&"offset": Vector2(50, 0),
+&"portraits": {
+"app1": {
+"export_overrides": {
+"image": "\"res://image/visualNovelimage/top-appoarch1-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"app2": {
+"export_overrides": {
+"image": "\"res://image/visualNovelimage/top-appoarch2-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"app3": {
+"export_overrides": {
+"image": "\"res://image/visualNovelimage/top-appoarch3-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"fly": {
+"export_overrides": {
+"image": "\"res://image/visualNovelimage/top-flying-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"loli": {
+"export_overrides": {
+"image": "\"res://image/visualNovelimage/top-loli-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"punch": {
+"export_overrides": {
+"image": "\"res://image/visualNovelimage/top-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile": {
+"export_overrides": {
+"image": "\"res://image/visualNovelimage/top-smiling-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+&"scale": 1.0
+}

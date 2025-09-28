@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bcg7mdf4usoj4"]
+
+[ext_resource type="Script" uid="uid://15dyck1mt7sl" path="res://dialogue_manager.gd" id="1_k6lpl"]
+[ext_resource type="Script" uid="uid://b2lkdudjel1oj" path="res://label.gd" id="2_iove5"]
+
+[node name="DialogueManager" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_k6lpl")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("2_iove5")

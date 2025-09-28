@@ -1,0 +1,58 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(1, 1, 1, 1),
+&"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "",
+"suffix": ""
+},
+&"default_portrait": "panic",
+&"description": "",
+&"display_name": "成都蘿莉",
+&"mirror": false,
+&"nicknames": [""],
+&"offset": Vector2(0, -100),
+&"portraits": {
+"panic": {
+"export_overrides": {
+"image": "\"res://image/visualNovelimage/buttom-panic-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"shock": {
+"export_overrides": {
+"image": "\"res://image/visualNovelimage/buttom-shock-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile": {
+"export_overrides": {
+"image": "\"res://image/visualNovelimage/buttom-smiling-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"terrified": {
+"export_overrides": {
+"image": "\"res://image/visualNovelimage/buttom-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+&"scale": 0.7
+}
